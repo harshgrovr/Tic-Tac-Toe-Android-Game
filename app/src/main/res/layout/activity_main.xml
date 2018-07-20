@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iwanttobeaandroiddeveloper.connect_3.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/board"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/board" />
+
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/oneD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="one"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/two"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/twoD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="two"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/three"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="221dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="56dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/threeD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="three"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="161dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fourD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="four"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/five"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="161dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fiveD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="five"
+            android:src="@drawable/red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/six"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="161dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sixD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="six"
+            android:src="@drawable/red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seven"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="271dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sevenD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="seven"
+            android:src="@drawable/red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eight"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="271dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="105dp">
+        <ImageView
+            android:id="@+id/eightD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="eight"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nine"
+        android:layout_width="111dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="281dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="221dp">
+
+        <ImageView
+            android:id="@+id/nineD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:onClick="nine"
+            android:src="@drawable/red" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
